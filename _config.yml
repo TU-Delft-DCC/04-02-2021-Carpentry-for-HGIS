@@ -10,12 +10,12 @@ exclude_patterns: [LICENSE.md, 02_Python_Draw_GIS/code/** images/**.*,./**/*.py,
 
 # Information about where the book exists on the web
 repository:
-  url  : https://github.com/the-magnificents/04-02-2021-Carpentry-for-HGIS.git
+  url  : git@github.com:TU-Delft-DCC/Intro-to-Python-forGIS.git
 
 html:
   use_repository_button: true
   comments:
     utterances:
-      repo: "the-magnificents/04-02-2021-Carpentry-for-HGIS" 
+      repo: "TU-Delft-DCC/Intro-to-Python-for-GIS" 
   
   home_page_in_navbar: false
