@@ -64,7 +64,7 @@ var addUtterances = () => {
     script.src = "https://utteranc.es/client.js";
     script.async = "async";
 
-    script.setAttribute("repo", "the-magnificents/04-02-2021-Carpentry-for-HGIS");
+    script.setAttribute("repo", "TU-Delft-DCC/Intro-to-Python-for-GIS");
     script.setAttribute("issue-term", "pathname");
     script.setAttribute("theme", "github-light");
     script.setAttribute("label", "💬 comment");
@@ -120,12 +120,14 @@ commentsRunWhenDOMLoaded(addUtterances);
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="current nav sidenav_l1">
+    <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../../../README.html">
    Python Essentials for GIS Learners
   </a>
  </li>
+</ul>
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="../../../00_Lesson_prep/01_icebreaker.html">
    Icebreaker question
@@ -270,6 +272,11 @@ commentsRunWhenDOMLoaded(addUtterances);
     </a>
     <ul class="collapse-ul">
      <li class="toctree-l3">
+      <a class="reference internal" href="../../../02_Day_2_Python_GIS/reads/01_pd_mplt.html">
+       Basic analysis and plotting of geodata with Python
+      </a>
+     </li>
+     <li class="toctree-l3">
       <a class="reference internal" href="../../../02_Day_2_Python_GIS/reads/R0_Python_QGIS.html">
        Working with the Python console in QGIS
       </a>
@@ -310,67 +317,137 @@ commentsRunWhenDOMLoaded(addUtterances);
   <i class="fas fa-chevron-down">
   </i>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../../../04_Wrap_up/00_README.html">
-   FOLLOW UP
-  </a>
- </li>
  <li class="toctree-l1 current active collapsible-parent">
   <a class="reference internal" href="../../00_README.html">
    Instructor notes
   </a>
   <ul class="current collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../02_References.html">
+     References
+    </a>
+   </li>
    <li class="toctree-l2 current active collapsible-parent">
     <a class="reference internal" href="../00_README.html">
      DAY 1
     </a>
     <ul class="current collapse-ul">
      <li class="toctree-l3">
-      <a class="reference internal" href="../01_Notes_From_DH_context.html">
-       Guide to programing with Python for the Digital Humanities
-      </a>
-     </li>
-     <li class="toctree-l3">
       <a class="reference internal" href="../02_About_Open_science_instructor_notes.html">
        Open Science
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../04_Python_Jupyter_Intro.html">
-       Python, jupyter and scientific programming intro
+      <a class="reference internal" href="../03_unix_instructor_notes.html">
+       Instructor Notes: Python Essentials for GIS Learners Day 1 (Unix Shell)
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html">
-       Use an index to get a single character from a string.
+      <a class="reference internal" href="../05_jupyter_instructor_notes.html">
+       Introduce Jupyter lab and basic python concepts
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#use-a-slice-to-get-a-substring">
-       Use a slice to get a substring.
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#use-the-built-in-function-len-to-find-the-length-of-a-string">
-       Use the built-in function
-       <code class="docutils literal notranslate">
-        <span class="pre">
-         len
-        </span>
-       </code>
-       to find the length of a string.
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#python-is-case-sensitive">
-       Python is case-sensitive.
+      <a class="reference internal" href="../05_jupyter_instructor_notes.html">
+       Introduce Jupyter lab and basic python concepts
       </a>
      </li>
      <li class="toctree-l3 current active collapsible-parent">
-      <a class="reference internal" href="B2_Vars_Types.html#use-meaningful-variable-names">
-       Use meaningful variable names.
+      <a class="reference internal" href="01_Notes_From_DH_context.html">
+       Guide to programing with Python for the Digital Humanities
       </a>
       <ul class="current collapse-ul">
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html">
+         Use an index to get a single character from a string.
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#use-a-slice-to-get-a-substring">
+         Use a slice to get a substring.
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#use-the-built-in-function-len-to-find-the-length-of-a-string">
+         Use the built-in function
+         <code class="docutils literal notranslate">
+          <span class="pre">
+           len
+          </span>
+         </code>
+         to find the length of a string.
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#python-is-case-sensitive">
+         Python is case-sensitive.
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#use-meaningful-variable-names">
+         Use meaningful variable names.
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#swapping-values">
+         Swapping Values
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#solution">
+         Solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#predicting-values">
+         Predicting Values
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#id1">
+         Solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#challenge">
+         Challenge
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#id2">
+         Solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#choosing-a-name">
+         Choosing a Name
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#id3">
+         Solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#slicing-practice">
+         Slicing practice
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#id4">
+         Solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#slicing-concepts">
+         Slicing concepts
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="B2_Vars_Types.html#solutions">
+         Solutions
+        </a>
+       </li>
        <li class="toctree-l4 current active">
         <a class="current reference internal" href="#">
          Functions may only work for certain (combinations of) arguments.
@@ -735,66 +812,6 @@ commentsRunWhenDOMLoaded(addUtterances);
       <i class="fas fa-chevron-down">
       </i>
      </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#swapping-values">
-       Swapping Values
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#solution">
-       Solution
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#predicting-values">
-       Predicting Values
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#id1">
-       Solution
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#challenge">
-       Challenge
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#id2">
-       Solution
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#choosing-a-name">
-       Choosing a Name
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#id3">
-       Solution
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#slicing-practice">
-       Slicing practice
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#id4">
-       Solution
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#slicing-concepts">
-       Slicing concepts
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="B2_Vars_Types.html#solutions">
-       Solutions
-      </a>
-     </li>
      <li class="toctree-l3 collapsible-parent">
       <a class="reference internal" href="../old_exercises/B1_exercise.html">
        Excercise 2
@@ -830,7 +847,7 @@ commentsRunWhenDOMLoaded(addUtterances);
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../../Day_2/02_lesson.html">
-       Variables (and constants)
+       Object oriented programming
       </a>
      </li>
      <li class="toctree-l3">
@@ -839,8 +856,13 @@ commentsRunWhenDOMLoaded(addUtterances);
       </a>
      </li>
      <li class="toctree-l3">
-      <a class="reference internal" href="../../Day_2/jupyter_instructor_notes.html">
-       Working with Jupyter Notebooks in Jupyter Lab
+      <a class="reference internal" href="../../Day_2/A1_qgis_lesson1.html">
+       Programmatically access the attributes of international airports
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../Day_2/airports_analysis_answers.html">
+       Basic analysis and plotting of geodata with Python
       </a>
      </li>
      <li class="toctree-l3">
@@ -886,9 +908,19 @@ commentsRunWhenDOMLoaded(addUtterances);
        Instructor Notes: Python Essentials for GIS Learners Day 3
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../Day_3/git_instructor_notes.html">
+       Instructor Notes: Python Essentials for GIS Learners Day 3
+      </a>
+     </li>
     </ul>
     <i class="fas fa-chevron-down">
     </i>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../Wrap_up/README.html">
+     Followup notes
+    </a>
    </li>
   </ul>
   <i class="fas fa-chevron-down">
@@ -950,11 +982,13 @@ commentsRunWhenDOMLoaded(addUtterances);
         aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
-            href="https://github.com/the-magnificents/04-02-2021-Carpentry-for-HGIS.git"><button type="button" class="btn btn-secondary topbarbtn"
+            href="git@github.com:TU-Delft-DCC/Intro-to-Python-for-GIS.git"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         
-        
+        <a class="edit-button" href="https://github.com/git@github.com:TU-Delft-DCC/Intro-to-Python-for-GIS.git/edit/master/Instructor_notes/Day_1/lesson_notes/B4_Functions.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
 </div>
 
@@ -1433,9 +1467,13 @@ what index expression will get the last character in the string <code class="doc
     <div class="container">
       <p>
         
-          By The Jupyter Book community<br/>
+          By TU Delft DCC<br/>
         
-            &copy; Copyright 2020.<br/>
+          <div class="extra_footer">
+            Licensed under CC-BY 4.0 by The TU Delft DCC</br>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+          </div>
       </p>
     </div>
   </footer>

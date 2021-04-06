@@ -1,9 +1,6 @@
 # Python Essentials for GIS Learners
 ![](images/map_delft.jpg)
 This website hosts materials, exercises and lessons for a 3-day course on Python Essentials for GIS Learners offered to the BK Faculty at TU Delft. Materials and website created by co-instructors Jose Urra Llanusa and Ashley Cryan of the TU Delft Digital Competence Centre. 
-```{Note}
-The **slides** used to run the morning sessions can be found [**here**](https://docs.google.com/presentation/d/e/2PACX-1vQhpuHf8B-meVg-QgXF273j7lEA0DVrcaBDIjSTCv8_-6Hertx1X6ibS7hc3zO9cDUm1gl4zO4xp0MG/pub?start=false&loop=false&delayms=3000)
-```
 
 ## Workshop overview
 Are you interested in learning to program with Python? Are you working with geospatial data or interested in working with geospatial data? Would you like to apply computational thinking and data analysis tools to your research?
@@ -41,3 +38,6 @@ If you have any questions about these steps before the workshop, please reach ou
 
 ## Credits and acknowledgements
 This lesson material is based upon the Software Carpentries lesson on [The Unix Shell](http://swcarpentry.github.io/shell-novice/), Andrea Cleland's [Turtle Graphics Map](https://github.com/acleland/turtle-graphics-map) repository, the [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) lesson from the Software Carpentries, and Gizmo ["Can you speak Python?" challenges](https://github.com/wmvanvliet/gizmo) repository by Marijn van Vliet. We thank the authors for their inspiration and material :) 
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
