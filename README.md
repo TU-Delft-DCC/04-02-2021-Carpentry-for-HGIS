@@ -38,3 +38,6 @@ If you have any questions about these steps before the workshop, please reach ou
 
 ## Credits and acknowledgements
 This lesson material is based upon the Software Carpentries lesson on [The Unix Shell](http://swcarpentry.github.io/shell-novice/), Andrea Cleland's [Turtle Graphics Map](https://github.com/acleland/turtle-graphics-map) repository, the [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) lesson from the Software Carpentries, and Gizmo ["Can you speak Python?" challenges](https://github.com/wmvanvliet/gizmo) repository by Marijn van Vliet. We thank the authors for their inspiration and material :) 
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
