@@ -10,7 +10,7 @@ exclude_patterns: [LICENSE.md, 02_Python_Draw_GIS/code/** images/**.*,./**/*.py,
 
 # Information about where the book exists on the web
 repository:
-  url  : git@github.com:TU-Delft-DCC/Intro-to-Python-forGIS.git
+  url  : git@github.com:TU-Delft-DCC/Intro-to-Python-for-GIS.git
 
 html:
   use_repository_button: true
